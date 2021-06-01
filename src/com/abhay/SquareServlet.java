@@ -22,7 +22,7 @@ public class SquareServlet extends HttpServlet {
 //		out.println("restult is : "+ k*k);
 		
 		System.out.println("IT is Working");
-//		int k = (Integer.parseInt(req.getParameter("k")));
+//		int k = (Integer.parseInt(req.getParameter("k")));	//Redirect URL Rewriting
 //		HttpSession session = req.getSession();
 //		int k = (int) session.getAttribute("k");
 		
