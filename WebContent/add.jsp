@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+    pageEncoding="ISO-8859-1" errorPage="Error.jsp" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -18,17 +18,17 @@
 	
 	
 	<%																		//Scriplet
-		try{	
+		//try{	
 			int  i = Integer.parseInt(request.getParameter("num1"));
 			int  j = Integer.parseInt(request.getParameter("num2"));
 			int k = i + j; 
 			int z = a/0;
 			out.println("THis is the Result which is visible in JSP "+k);
 			out.println("THis is the Result which is visible in JSP "+a);
-		}
-		catch(Exception e){
+		//}
+		/* catch(Exception e){
 			out.println(e.getMessage());
-		}
+		} */
 
 	%>
 	<br>
